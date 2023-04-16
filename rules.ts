@@ -206,6 +206,12 @@ const rules: KarabinerRules[] = [
       l: {
         to: [{ key_code: "right_arrow" }],
       },
+      b: {
+        to: [{ key_code: "left_arrow", modifiers: ["left_option"] }],
+      },
+      n: {
+        to: [{ key_code: "right_arrow", modifiers: ["left_option"] }],
+      },
       // Magicmove via homerow.app
       // m: {
       //   to: [{ key_code: "f", modifiers: ["right_control"] }],
